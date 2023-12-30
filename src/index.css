@@ -1,13 +1,188 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  background-image: url(https://cdn.freecodecamp.org/curriculum/css-cafe/beans.jpg);
+  font-family: sans-serif;
+  padding: 20px;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+h1 {
+  font-size: 35px;
+  margin-top: 0;
+  margin-bottom: 15px;
+}
+
+h2 {
+  font-size: 25px;
+}
+
+.established {
+  font-style: italic;
+}
+
+h1,
+h2,
+p {
+  text-align: center;
+}
+
+.menu {
+  width: 80%;
+  background-color: burlywood;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+  max-width: 500px;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -25px;
+}
+
+hr {
+  height: 2px;
+  background-color: brown;
+  border-color: brown;
+}
+
+.bottom-line {
+  margin-top: 25px;
+}
+
+h1,
+h2 {
+  font-family: Impact, serif;
+}
+
+.item p {
+  display: inline-block;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-size: 18px;
+}
+
+.flavor,
+.dessert {
+  text-align: left;
+  width: 60%;
+}
+
+.price,
+.add-to-cart-section {
+  text-align: right;
+  width: 20%;
+}
+
+/* FOOTER */
+
+footer {
+  font-size: 14px;
+}
+
+.address {
+  margin-bottom: 5px;
+}
+
+a {
+  color: black;
+}
+
+a:visited {
+  color: black;
+}
+
+a:hover {
+  color: brown;
+}
+
+a:active {
+  color: brown;
+}
+
+.product-action {
+  padding: 0;
+  margin: 0 0 0 auto;
+  box-sizing: border-box;
+  touch-action: manipulation;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  justify-content: space-between;
+  outline: 1px solid;
+  width: 70%;
+}
+
+.product-action button {
+  background-color: black;
+  color: white;
+  font-size: 18px;
+  outline: none;
+  border: none;
+  touch-action: manipulation;
+  cursor: pointer;
+}
+
+.cart-section {
+  margin-top: 25px;
+}
+
+.checkout .item.header {
+  font-weight: 600;
+}
+
+.price-summary .flavor {
+  width: 75%;
+}
+
+.price-summary .price {
+  width: 25%;
+}
+
+.price-summary .item.checkout-btn .flavor {
+  width: 50%;
+}
+
+.price-summary .item.checkout-btn .price {
+  width: 50%;
+}
+
+.price-summary .item.checkout-btn .price button,
+.user-details .item.checkout-btn .price button,
+.thankyou-page .item.checkout-btn .price button {
+  background-color: black;
+  color: white;
+  font-size: 18px;
+  outline: none;
+  border: none;
+  touch-action: manipulation;
+  cursor: pointer;
+  padding: 8px;
+}
+
+.user-details .flavor {
+  width: 40%;
+}
+
+.user-details .user-info-field {
+  width: 58%;
+  background-color: burlywood;
+  outline: 1px solid;
+  border: none;
+  padding: 2px;
+  margin: 2px;
+}
+
+.user-details .item.checkout-btn .user-info-field {
+  outline: none;
+}
+
+.thankyou-page .item {
+  margin: 0 auto 0 auto;
+}
+
+.thankyou-page .price,
+.thankyou-page .flavor {
+  width: 100%;
+  text-align: center;
 }
